@@ -1,0 +1,35 @@
+column,description
+datasetCode,UN Comtrade dataset identifier.
+typeCode,Trade type (commodity/service).
+freqCode,Reporting frequency (annual).
+refPeriodId,Reference period identifier.
+refYear,Reference year of the trade flow.
+refMonth,Reference month (annual data: placeholder).
+period,Reporting period.
+reporterCode,Numeric UN Comtrade code of the reporting country.
+flowCode,"Trade flow direction: 'X' = export, 'M' = import."
+partnerCode,Numeric UN Comtrade code of the partner country.
+partner2Code,Secondary partner / last known destination code.
+classificationSearchCode,Commodity classification search code.
+classificationCode,Commodity classification system code (e.g. H5).
+isOriginalClassification,Whether cmdCode uses the original (not converted) classification.
+cmdCode,Harmonized System (HS) commodity code (2/4/6-digit).
+customsCode,Customs procedure code.
+mosCode,Mode of supply code.
+motCode,Mode of transport code.
+qtyUnitCode,Quantity unit code.
+qty,Reported quantity.
+isQtyEstimated,Whether quantity is estimated.
+altQtyUnitCode,Alternative quantity unit code.
+altQty,Alternative quantity value.
+isAltQtyEstimated,Whether alternative quantity is estimated.
+netWgt,Net weight (kg).
+isNetWgtEstimated,Whether net weight is estimated.
+grossWgt,Gross weight (kg).
+isGrossWgtEstimated,Whether gross weight is estimated.
+CIFValue,"Cost, Insurance, Freight value (imports)."
+FOBValue,Free on Board value (exports).
+primaryValue,Primary trade value in USD -- imputed for records produced by this pipeline.
+legacyEstimationFlag,Indicator for legacy estimation methods.
+isReported,True for an originally reported record; False for an imputed record produced by this pipeline.
+isAggregate,UN Comtrade commodity-level (HS-hierarchy) aggregation flag. NOTE: this is NOT a country-aggregation flag -- see QC notes below.
