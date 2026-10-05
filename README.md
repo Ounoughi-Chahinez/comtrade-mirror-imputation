@@ -10,7 +10,7 @@ Generated: 2026-10-05
 The trained models (~4.1GB) and full imputed datasets (~390MB+ including
 per-year files) are hosted separately on Zenodo:
 
-> **Data + models DOI: PENDING -- fill in after uploading the archive zip to Zenodo**
+> **Data + models DOI: https://doi.org/10.5281/zenodo.23154375**
 
 ## Method summary
 
